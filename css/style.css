@@ -82,7 +82,7 @@ body {
 	background: #fff;
 	font: 300 14px 'Open Sans', sans-serif;
 	text-align: center;
-	color: #999;
+	color: #737373;
 }
 
 p {
@@ -103,7 +103,7 @@ a {
 	transition: all 300ms linear
 }
 
-a:hover { color: #999; }
+a:hover { color: #737373; }
 
 img {
 	max-width: 100%;
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 50px;
 }
 
-#portfolio p {
+.portfolio p {
 	margin-bottom: 50px;
 }
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 04 HEADER SETTINGS
 --------------------------------------------------------------- */
 
-#welcome {
+.welcome {
 	/*background: url('../images/photo.jpg') no-repeat center center;*/
 	background-color: #333;
 	background-size: cover;
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header_subtitle {
-	color: #999;
+	color: #ccc;
 	font-size: 14px;
 	letter-spacing: 6px;
 }
@@ -264,7 +264,7 @@ nav ul li:hover {
 /* 05 ABOUT SETTINGS
 --------------------------------------------------------------- */
 
-#about { padding: 100px 50px; }
+.about { padding: 100px 50px; }
 
 .button {
 	margin: 50px 0 0;
@@ -291,7 +291,7 @@ nav ul li:hover {
 /* 06 PORTFOLIO SETTINGS
 --------------------------------------------------------------- */
 
-#portfolio {
+.portfolio {
 	background: #f5f5f5;
 	padding: 100px 50px 75px; 
 }
@@ -367,7 +367,7 @@ nav ul li:hover {
 /* 07 CONTACT SETTINGS
 --------------------------------------------------------------- */
 
-#contact { padding: 100px 50px; }
+.contact { padding: 100px 50px; }
 
 .info {
 	display: flex;
@@ -474,7 +474,7 @@ footer p {
 	text-transform: uppercase;
 }
 
-.right a { color: #999 }
+.right a { color: #737373 }
 
 .right a:hover { color: rgba(0, 98, 119, 1); }
 
@@ -489,9 +489,9 @@ footer p {
 	}
 
 	.section_subtitle { margin: 0 0 30px 0; }
-	#about, #contact { padding: 80px 25px; }
+	.about, .contact { padding: 80px 25px; }
 	
-	#portfolio { padding: 80px 25px 65px; }
+	.portfolio { padding: 80px 25px 65px; }
 	
 	.works article {
 		flex: 0 0 48%;
