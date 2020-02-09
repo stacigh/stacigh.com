@@ -80,13 +80,14 @@ table {
 
 body {
 	background: #fff;
-	font: 300 14px 'Open Sans', sans-serif;
+	font: 300 20px 'Open Sans', sans-serif;
 	text-align: center;
-	color: #737373;
+	color: #696969;
 }
 
 p {
-	line-height: 2;
+	line-height: 1.75;
+	padding: 0 100px 1.5em 100px;
 }
 
 b {
@@ -103,7 +104,7 @@ a {
 	transition: all 300ms linear
 }
 
-a:hover { color: #737373; }
+a:hover { color: #696969; }
 
 img {
 	max-width: 100%;
@@ -119,14 +120,18 @@ h1, h2, h3, h4, h5, h6 {
 .section_title {
 	margin: 0 0 15px 0;
 	color: rgba(0, 98, 119, 1);
-	font-size: 24px;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	letter-spacing: 6px;
 }
 
 .section_subtitle {
+	border-top: 1px solid #ddd;
 	margin: 0 0 50px 0;
-	font: italic 18px 'Open Sans', sans-serif;
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
 	text-transform: none;
 }
 
@@ -138,10 +143,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .works + .section_subtitle.company {
 	margin-top: 50px;
-}
-
-.portfolio p {
-	margin-bottom: 50px;
 }
 
 /* Containers */
@@ -177,6 +178,10 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-animation-delay: 0.3s;
 	-moz-animation-delay: 0.3s;
 	animation-delay: 0.3s;
+}
+
+.noborder {
+	border: none;
 }
 
 /* 04 HEADER SETTINGS
@@ -360,6 +365,7 @@ nav ul li:hover {
 	height: 50px;
 	line-height: 50px;
 	font-family: 'Montserrat', sans-serif;
+	font-size: .75em;
 	text-transform: uppercase;
 	color: rgba(0, 98, 119, 1);
 }
@@ -368,6 +374,10 @@ nav ul li:hover {
 --------------------------------------------------------------- */
 
 .contact { padding: 100px 50px; }
+
+.contact .section_title { margin-bottom: 50px; }
+
+.contact p { padding: 0; }
 
 .info {
 	display: flex;
@@ -450,6 +460,7 @@ footer {
 	margin: 0 auto;
 	padding: 50px;
 	overflow: hidden;
+	font-size: .75em;
 }
 
 footer p {
@@ -474,7 +485,7 @@ footer p {
 	text-transform: uppercase;
 }
 
-.right a { color: #737373 }
+.right a { color: #696969 }
 
 .right a:hover { color: rgba(0, 98, 119, 1); }
 
